@@ -1,5 +1,7 @@
 import React from 'react';
 import logoImage from '../logo.jpg';
+import { Link } from 'react-router-dom';
+
 
 const NavbarComponent = () => {
     return (
@@ -15,7 +17,7 @@ const NavbarComponent = () => {
             </div>
             <div className='flex w-[70%] justify-center m-2 p-2 gap-9 font-bold text-gray-700'>
                 <h1 className='cursor-pointer hover:text-red-400 m-1 p-1'>Home</h1>
-                <h1 className='cursor-pointer hover:text-red-400 m-1 p-1'>About us</h1>
+                <h1 className='cursor-pointer hover:text-red-400 m-1 p-1'> about us</h1>
                 <h1 className='cursor-pointer hover:text-red-400  m-1 p-1'>What We Do</h1>
                 <h1 className='cursor-pointer hover:text-red-400  m-1 p-1'>Events</h1>
                 <h1 className='cursor-pointer hover:text-red-400 m-1 p-1'>Donate Us</h1>
