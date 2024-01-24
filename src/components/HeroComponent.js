@@ -17,15 +17,15 @@ const HeroComponent = () => {
 
     return (
         <Slider {...sliderSettings} >
-            <div className='relative w-full md:w-80 mx-auto h-[800px]'>
+            <div className='relative w-full md:w-100 mx-auto h-[800px]'>
                 <img src="/images/slider2.jpg" className='w-full h-full object-cover' alt="Slide 2" />
                 <ButtonOnslider />
             </div>
-            <div className='w-full md:w-80 mx-auto h-[800px]'>
+            <div className='w-full md:w-100 mx-auto h-[800px]'>
                 <img src="/images/slider1.jpg" className='w-full h-full object-cover' alt="Slide 1" />
                 <ButtonOnslider />
             </div>
-            <div className='w-full md:w-80 mx-auto h-[800px]'>
+            <div className='w-full md:w-100 mx-auto h-[800px]'>
                 <img src="/images/slider3.jpg" className='w-full h-full object-cover' alt="Slide 3" />
                 <ButtonOnslider />
             </div>
